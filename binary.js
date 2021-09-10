@@ -12,9 +12,7 @@ const binary = (arr, item) => {
         const midElIndex = Math.floor((lowElIndex + highElIndex) / 2);
         const guessEl = arr[midElIndex];
 
-        if (guessEl === item) {
-            return arr[midElIndex];
-        }
+        if (guessEl === item) return guessEl;
 
         if (guessEl > item) {
             highElIndex = midElIndex - 1;
