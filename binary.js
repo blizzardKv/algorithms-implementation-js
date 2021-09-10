@@ -4,10 +4,7 @@ const sortedArr = (arr) => {
     return arr.sort((a, b) => a - b);
 }
 
-console.log(sortedArr(array));
-
 const binary = (arr, item) => {
-    debugger;
     let lowElIndex = 0;
     let highElIndex = arr.length - 1;
 
